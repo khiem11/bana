@@ -148,7 +148,7 @@ class BananaBot {
                 });
     
                 if (bestBanana.banana_id === currentEquipBananaId) {
-                    this.log(colors.green(`Đang sử dụng quả chuối tốt nhất: ${colors.yellow(bestBanana.name)}.`));
+                    this.log(colors.green(`Đang sử dụng quả chuối tốt nhất: ${colors.yellow(bestBanana.name)} | Price : ${colors.yellow(bestBanana.sell_exchange_peel)} Peels / ${colors.yellow(bestBanana.sell_exchange_usdt)} USDT.`));
                     return;
                 }
     
